@@ -1,0 +1,6 @@
+{
+    "enableSearch": false,
+    "excludes": {
+        "apiDocs": true
+    }
+}

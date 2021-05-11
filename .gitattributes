@@ -8,3 +8,4 @@
 *.pdb       binary
 *.otf       binary
 *.ttf       binary
+*.zip       binary
