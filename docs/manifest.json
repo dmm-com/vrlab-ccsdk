@@ -1,0 +1,351 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/simon/AppData/Local/Temp/dg-pibaahx3.mkj",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "n97EZFSGDef8AYUy2kQXGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "wgVG89D/TaqM88Bf9gTC8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/2021-05-06-11-18-11.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/2021-05-06-11-18-11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/2021-05-07-10-14-11.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/2021-05-07-10-14-11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/2021-05-07-10-41-00.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/2021-05-07-10-41-00.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/2021-05-07-10-41-30.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/2021-05-07-10-41-30.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/2021-05-07-10-42-02.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/2021-05-07-10-42-02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/control-panel-anatomy.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/control-panel-anatomy.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/control-panel-login.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/control-panel-login.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/control-panel-open.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/control-panel-open.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/device-confirmation.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/device-confirmation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/empty-world-list.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/empty-world-list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/scene-add-cc-world.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/scene-add-cc-world.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/scene-add-spawn-point.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/scene-add-spawn-point.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/scene-create-spawn-point.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/scene-create-spawn-point.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/scene-create.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/scene-create.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-delete-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-delete-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-edit-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-edit-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-edit.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-entry.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-entry.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-publish-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-publish-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-thumbnail-import-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-thumbnail-import-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-upload-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-upload-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "eI+rYpCLiPMXieyEiat3LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "okpXJpGveI4L5phU3UbyAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "7r9/ENclYvwlCNGq0l9fow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

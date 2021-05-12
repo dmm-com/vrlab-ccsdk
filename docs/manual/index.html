@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Overview | Connect Chat SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Overview | Connect Chat SDK ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="overview">Overview</h1>
+
+<p>The Connect Chat SDK (CCSDK) is the tool that allows you to build your own worlds.</p>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="setting-up-unity">Setting up Unity</h3>
+<p><a href="https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe">Click here</a> to download and install Unity Hub.</p>
+<p>Once Unity Hub is installed <a href="unityhub://2019.4.23f1/3f4e01f1a5ec">click here</a> to install the Unity version supported by Connect Chat.</p>
+<h3 id="setting-up-the-sdk">Setting up the SDK</h3>
+<p>The SDK is distributed through GitHub as a Unity Package Manager package.
+You will need Git for this, so <a href="http://git-scm.com/">click here</a> to download and install it.</p>
+<h3 id="template-project">Template Project</h3>
+<p>We prepared a template project that can be used as a base for your new worlds.</p>
+<ol>
+<li><a href="files/vrlab-ccsdk-template.zip">Click here</a> to download it.</li>
+<li>Create a new folder for your project, extract the file in it.</li>
+<li>Launch Unity Hub and add the folder you created to the list of projects.</li>
+<li>Open the new project and start creating your own world.</li>
+</ol>
+<h2 id="creating-a-world">Creating a World</h2>
+<p>Creating a new world is a simple process:</p>
+<ol>
+<li>Create and setup a scene containing your world content.</li>
+<li>Log into your <a href="https://connect.vrlab.dmm.com">VR Connect</a> account.</li>
+<li>Add a new world to your list.</li>
+<li>Upload the scene.</li>
+<li>Publish your world.</li>
+</ol>
+<h3 id="step-1---create-and-setup-the-scene">Step 1 - Create and Setup the Scene</h3>
+<p>Create a new scene and populate it with the content of your world.</p>
+<p><img src="images/scene-create.png" alt="Create and populate your scene."></p>
+<p>When you are done, add an empty <em>GameObject</em> and attach the <em>CC World</em> component to it.</p>
+<p><img src="images/scene-add-cc-world.png" alt="Add the CC World component."></p>
+<p>Add spawn points to the scene by creating empty <em>GameObjects</em>:</p>
+<p><img src="images/scene-create-spawn-point.png" alt="Create a spawn point."></p>
+<p>and add them to the <em>CC World</em>'s spawn point list.</p>
+<p><img src="images/scene-add-spawn-point.png" alt="Add the spawn point to CC World."></p>
+<p>⚠️  Not all Unity components or shaders are usable in the scene: see <a href="#allowed-components">here</a> for the list of allowed components, and <a href="#allowed-shaders">here</a> for the list of allowed shaders.</p>
+<h3 id="step-2---log-into-vr-connect">Step 2 - Log into VR Connect</h3>
+<ol>
+<li><p>Open the control panel using the <em>Connect Chat</em> menu.</p>
+<p><img src="images/control-panel-open.png" alt="Open the Control Panel"></p>
+</li>
+<li><p>Once the control panel window appears, press the <em>Login</em> button to login into your [VR Connect] (<a href="https://connect.vrlab.dmm.com">https://connect.vrlab.dmm.com</a>) account.</p>
+<p><img src="images/control-panel-login.png" alt="Login into Connect"></p>
+</li>
+<li><p>Press the <em>Confirm</em> button in the browser window that opened and return to Unity.</p>
+<p><img src="images/device-confirmation.png" alt="Device Confirmation"></p>
+</li>
+<li><p>Once logged in the control panel will show the list of world you have uploaded.</p>
+<p><img src="images/empty-world-list.png" alt="Empty World List"></p>
+</li>
+</ol>
+<p>In addition to the world list, the control panel windows show the user information and
+has a few useful controls:</p>
+<p><img src="images/control-panel-anatomy.png" alt="Control Panel Anatomy"></p>
+<h3 id="step-3---adding-a-new-world">Step 3 - Adding a New World</h3>
+<p>Click the <code>+</code> button to create a new world; the world list will update and a new world should be added to your list:</p>
+<p><img src="images/world-entry.png" alt="World Entry"></p>
+<p><strong>ID:</strong> The internal id of the world.</p>
+<p><strong>Title:</strong> The name of the world and what is shown in the world selections screen.</p>
+<p><strong>Description:</strong> One or two short sentences describing your world.</p>
+<p><strong>Public:</strong> Shows if the world is usable by everyone or only by you (you will still be able to invite people into one instance).</p>
+<p>The image on the right is the world's thumbnail: a 256x256 texture that will be shown together with the world title on the world selection screen.</p>
+<p>On the far right there are four icons:</p>
+<p><img src="images/world-edit-icon.png" alt=""> <strong>Edit:</strong> Toggles the edit mode for the world details.</p>
+<p><img src="images/world-publish-icon.png" alt=""> <strong>Publish:</strong> Publishes the world and make it available in the World Selection window.</p>
+<p><img src="images/world-upload-icon.png" alt=""> <strong>Build &amp; Upload:</strong> Builds the world asset bundle using the current active scene and uploads it.</p>
+<p><img src="images/world-delete-icon.png" alt=""> <strong>Delete:</strong> Deletes the world (this operation cannot be undone).</p>
+<h4 id="editing-your-world-details">Editing your World Details</h4>
+<p>Click the <em>Edit</em> button and toggle the <em>edit mode</em> for your world.</p>
+<p>You can now edit the title and description of your world, change its thumbnail, and toggle it's visibility flag.</p>
+<p><img src="images/world-edit.png" alt="Editing the world details."></p>
+<p>Custom thumbnails must be 256 x 256 pixels and be imported with the following settings:</p>
+<p><img src="images/world-thumbnail-import-settings.png" alt="Thumnbail import settings."></p>
+<h3 id="step-4---uploading">Step 4 - Uploading</h3>
+<p>To building and uploading your world just click on the build button: a dialog will appear once the upload is completed.
+If anything wrong happens (for example, the scene contains components that are not allowed), check the console for error messages.</p>
+<h3 id="step-5---publish-your-world">Step 5 - Publish your World</h3>
+<p>Once the details of your world are in order and the scene has been uploaded press the publish button to make your world usable in Connect Chat.</p>
+<h2 id="allowed-components-and-shaders">Allowed Components and Shaders</h2>
+<h3 id="allowed-components">Allowed Components</h3>
+<p>The following components can be used when creating your world:</p>
+<ul>
+<li>UnityEngine.AI.NavMeshAgent</li>
+<li>UnityEngine.AI.NavMeshObstacle</li>
+<li>UnityEngine.AI.OffMeshLink</li>
+<li>UnityEngine.Animator</li>
+<li>UnityEngine.AudioChorusFilter</li>
+<li>UnityEngine.AudioDistortionFilter</li>
+<li>UnityEngine.AudioEchoFilter</li>
+<li>UnityEngine.AudioHighPassFilter</li>
+<li>UnityEngine.AudioLowPassFilter</li>
+<li>UnityEngine.AudioReverbFilter</li>
+<li>UnityEngine.AudioReverbZone</li>
+<li>UnityEngine.AudioSource</li>
+<li>UnityEngine.BillboardRenderer</li>
+<li>UnityEngine.BoxCollider</li>
+<li>UnityEngine.Camera</li>
+<li>UnityEngine.Canvas</li>
+<li>UnityEngine.CanvasGroup</li>
+<li>UnityEngine.CanvasRenderer</li>
+<li>UnityEngine.CapsuleCollider</li>
+<li>UnityEngine.CharacterController</li>
+<li>UnityEngine.Collider</li>
+<li>UnityEngine.Grid</li>
+<li>UnityEngine.GridLayout</li>
+<li>UnityEngine.Light</li>
+<li>UnityEngine.LightProbeGroup</li>
+<li>UnityEngine.LightProbeProxyVolume</li>
+<li>UnityEngine.LineRenderer</li>
+<li>UnityEngine.LODGroup</li>
+<li>UnityEngine.MeshCollider</li>
+<li>UnityEngine.MeshFilter</li>
+<li>UnityEngine.MeshRenderer</li>
+<li>UnityEngine.OcclusionArea</li>
+<li>UnityEngine.OcclusionPortal</li>
+<li>UnityEngine.ParticleSystem</li>
+<li>UnityEngine.ParticleSystemForceField</li>
+<li>UnityEngine.ParticleSystemRenderer</li>
+<li>UnityEngine.Projector</li>
+<li>UnityEngine.RectTransform</li>
+<li>UnityEngine.ReflectionProbe</li>
+<li>UnityEngine.Renderer</li>
+<li>UnityEngine.Rendering.SortingGroup</li>
+<li>UnityEngine.Rigidbody</li>
+<li>UnityEngine.SkinnedMeshRenderer</li>
+<li>UnityEngine.SphereCollider</li>
+<li>UnityEngine.SpringJoint</li>
+<li>UnityEngine.SpriteMask</li>
+<li>UnityEngine.SpriteRenderer</li>
+<li>UnityEngine.Terrain</li>
+<li>UnityEngine.TerrainCollider</li>
+<li>UnityEngine.TextMesh</li>
+<li>UnityEngine.Tilemaps.Tilemap</li>
+<li>UnityEngine.Tilemaps.TilemapRenderer</li>
+<li>UnityEngine.TrailRenderer</li>
+<li>UnityEngine.Transform</li>
+<li>UnityEngine.Tree</li>
+<li>UnityEngine.UI.AspectRatioFitter</li>
+<li>UnityEngine.UI.BaseMeshEffect</li>
+<li>UnityEngine.UI.Button</li>
+<li>UnityEngine.UI.CanvasScaler</li>
+<li>UnityEngine.UI.ContentSizeFitter</li>
+<li>UnityEngine.UI.Dropdown</li>
+<li>UnityEngine.UI.Graphic</li>
+<li>UnityEngine.UI.GraphicRaycaster</li>
+<li>UnityEngine.UI.GridLayoutGroup</li>
+<li>UnityEngine.UI.HorizontalLayoutGroup</li>
+<li>UnityEngine.UI.HorizontalOrVerticalLayoutGroup</li>
+<li>UnityEngine.UI.Image</li>
+<li>UnityEngine.UI.InputField</li>
+<li>UnityEngine.UI.LayoutElement</li>
+<li>UnityEngine.UI.LayoutGroup</li>
+<li>UnityEngine.UI.Mask</li>
+<li>UnityEngine.UI.MaskableGraphic</li>
+<li>UnityEngine.UI.Outline</li>
+<li>UnityEngine.UI.PositionAsUV1</li>
+<li>UnityEngine.UI.RawImage</li>
+<li>UnityEngine.UI.RectMask2D</li>
+<li>UnityEngine.UI.Scrollbar</li>
+<li>UnityEngine.UI.ScrollRect</li>
+<li>UnityEngine.UI.Selectable</li>
+<li>UnityEngine.UI.Shadow</li>
+<li>UnityEngine.UI.Slider</li>
+<li>UnityEngine.UI.Text</li>
+<li>UnityEngine.UI.Toggle</li>
+<li>UnityEngine.UI.ToggleGroup</li>
+<li>UnityEngine.UI.VerticalLayoutGroup</li>
+<li>UnityEngine.WheelCollider</li>
+<li>UnityEngine.WindZone</li>
+</ul>
+<p>⚠️ Using a component not in the list will result in an error when uploading your world.</p>
+<h4 id="allowed-shaders">Allowed Shaders</h4>
+<p>The following shaders can be used when creating your world.</p>
+<ul>
+<li>Mobile/Bumped Diffuse</li>
+<li>Mobile/Bumped Specular</li>
+<li>Mobile/Diffuse</li>
+<li>Mobile/Particles/Additive</li>
+<li>Mobile/Particles/Alpha Blended</li>
+<li>Mobile/Particles/Multiply</li>
+<li>Mobile/Particles/VertexLit Blended</li>
+<li>Mobile/Skybox</li>
+<li>Mobile/Unlit (Supports Lightmap)</li>
+<li>Mobile/VertexLit</li>
+<li>Mobile/VertexLit (Only Directional Lights)</li>
+<li>Standard</li>
+<li>Standard (Specular setup)</li>
+<li>UI/Default</li>
+<li>Unlit/Color</li>
+<li>Unlit/Texture</li>
+<li>Unlit/Transparent</li>
+<li>Unlit/Transparent Cutout</li>
+</ul>
+<p>⚠️ Using a shader not in the list will result in an error when uploading your world.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
