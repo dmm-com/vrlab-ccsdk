@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/simon/AppData/Local/Temp/dg-pibaahx3.mkj",
+  "source_base_path": "C:/Users/simon/AppData/Local/Temp/dg-1pb4jt2j.zai",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -22,6 +22,69 @@
         ".html": {
           "relative_path": "index.html",
           "hash": "wgVG89D/TaqM88Bf9gTC8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/01-overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/01-overview.html",
+          "hash": "QtKIeGFEp3+caLYVeRm0eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/02-supported-unity-version.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/02-supported-unity-version.html",
+          "hash": "vdp57Hwy61qg8nq7v+XR7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/03-setting-up-the-sdk.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/03-setting-up-the-sdk.html",
+          "hash": "EZd9Kh392ZbuR9Qs4oaxdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/04-creating-a-world.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/04-creating-a-world.html",
+          "hash": "3+MEGJMS2dVfR4WclI1scQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/05-supported-components.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/05-supported-components.html",
+          "hash": "G00AkeghRx21kIgkdpKeZg=="
         }
       },
       "is_incremental": false,
@@ -259,27 +322,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "manual/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/index.html",
-          "hash": "eI+rYpCLiPMXieyEiat3LQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "okpXJpGveI4L5phU3UbyAA=="
+          "hash": "iGxzpbR2Fa3MDnZWzLRxSQ=="
         }
       },
       "is_incremental": false,
@@ -291,7 +339,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "7r9/ENclYvwlCNGq0l9fow=="
+          "hash": "6Uq2Y5NXtZh234+wG09E8g=="
         }
       },
       "is_incremental": false,
@@ -312,7 +360,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
