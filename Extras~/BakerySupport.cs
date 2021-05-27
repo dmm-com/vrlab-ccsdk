@@ -1,4 +1,5 @@
-﻿using Chatroom.Core;
+﻿using System.Linq;
+using Chatroom.Core;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,7 +19,10 @@ namespace Chatroom.Sdk.Extras
                 return;
             }
 
-            var storage = ftraceLightmaps.GetComponentInChildren<ftLightmapsStorage>(); 
+            Debug.Log("Tagging !ftraceLightmaps as EditorOnly");
+            ftraceLightmaps.tag = "EditorOnly";
+
+            var storage = ftraceLightmaps.GetComponent<ftLightmapsStorage>();
             if (!storage)
             {
                 Debug.LogWarning($"No {nameof(ftLightmapsStorage)} object in the scene.");
