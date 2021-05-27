@@ -1,23 +1,27 @@
 ﻿using Chatroom.Core;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Chatroom.Sdk.Extras
 {
     internal static class BakerySupport 
     {
-        [MenuItem("Connect Chat/Extras/Copy Bakery Lightmaps")]
+        [MenuItem("Connect Chat/Extras/Copy Bakery Lighting")]
         private static void CopyBakeryLighting()
         {
-            var storageList = Object.FindObjectsOfType<ftLightmapsStorage>();
-            if (storageList.Length == 0)
+            var scene = SceneManager.GetActiveScene();
+            var ftraceLightmaps = FindFtraceLightmaps(scene);
+            if (!ftraceLightmaps)
             {
-                Debug.LogWarning($"No {nameof(ftLightmapsStorage)} object in the scene.");
+                Debug.LogWarning("No !ftraceLightmaps object in the scene.");
                 return;
             }
-            if (storageList.Length > 1)
+
+            var storage = ftraceLightmaps.GetComponentInChildren<ftLightmapsStorage>(); 
+            if (!storage)
             {
-                Debug.LogError($"Multiple {nameof(ftLightmapsStorage)} objects in the scene.");
+                Debug.LogWarning($"No {nameof(ftLightmapsStorage)} object in the scene.");
                 return;
             }
 
@@ -29,8 +33,6 @@ namespace Chatroom.Sdk.Extras
                 Debug.Log($"Created {nameof(CC_Lighting)} object.");
             }
 
-            var storage = storageList[0];
-            
             ftLightmaps.RefreshScene(storage.gameObject.scene, storage);
             lighting.BakedRenderers = storage.bakedRenderers.ToArray();
             lighting.BakedTerrains = storage.bakedRenderersTerrain.ToArray();
@@ -43,6 +45,21 @@ namespace Chatroom.Sdk.Extras
             lighting.BakedTerrainLightmapIndices = storage.bakedIDsTerrain.ToArray();
             lighting.BakedTerrainLightmapScaleOffset = storage.bakedScaleOffsetTerrain.ToArray();
             EditorUtility.SetDirty(lighting);
+        }
+
+        private static GameObject FindFtraceLightmaps(Scene scene)
+        {
+            GameObject ftraceLightmaps = null;
+            foreach (var rootGameObject in scene.GetRootGameObjects())
+            {
+                if (rootGameObject.name == "!ftraceLightmaps")
+                {
+                    ftraceLightmaps = rootGameObject;
+                    break;
+                }
+            }
+
+            return ftraceLightmaps;
         }
     }
 }
