@@ -26,7 +26,7 @@ and add them to the _CC World_'s spawn point list.
 
 ![Add the spawn point to CC World.](images/scene-add-spawn-point.png)
 
-:warning:  Not all Unity components or shaders are usable in the scene: see [here](#allowed-components) for the list of allowed components, and [here](#allowed-shaders) for the list of allowed shaders.
+:warning:  Not all Unity components or shaders are usable in the scene: see [here](05-supported-components.md#allowed-components) for the list of allowed components, and [here](05-supported-components.md#allowed-shaders) for the list of allowed shaders.
 
 ## Step 2 - Log into VR Connect
 
