@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/simon/AppData/Local/Temp/dg-1pb4jt2j.zai",
+  "source_base_path": "C:/Users/simon/AppData/Local/Temp/dg-fb0y5e52.ytw",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "n97EZFSGDef8AYUy2kQXGw=="
+          "hash": "3hN2cn59mjOhcOHCKq3927wXIWjoyCSm+n7CSWbTWq8="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "wgVG89D/TaqM88Bf9gTC8w=="
+          "hash": "scbnoy9+dpOf0pDucdNBIaOCjMYizVFKX0+0e0OdjV4="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/01-overview.html",
-          "hash": "QtKIeGFEp3+caLYVeRm0eg=="
+          "hash": "RXLLLj0LB+Lup9Gj62kTgIbtp3LgkvXZHlAORsD8+rU="
         }
       },
       "is_incremental": false,
@@ -45,22 +45,19 @@
       "output": {
         ".html": {
           "relative_path": "manual/02-supported-unity-version.html",
-          "hash": "vdp57Hwy61qg8nq7v+XR7g=="
+          "hash": "RLD2oorCIV/MlSxCB0wBO9JX0EHuHd7jPYBctcfLRy4="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/03-setting-up-the-sdk.md",
       "output": {
         ".html": {
           "relative_path": "manual/03-setting-up-the-sdk.html",
-          "hash": "EZd9Kh392ZbuR9Qs4oaxdQ=="
+          "hash": "mWkEMy5IvsHLvAWw5grSxpSHW0GD5GkqcBOguCk9G8s="
         }
       },
       "is_incremental": false,
@@ -72,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/04-creating-a-world.html",
-          "hash": "3+MEGJMS2dVfR4WclI1scQ=="
+          "hash": "6k+T4JQB0Zc1Kw/5vT+QxgyelDiY72lk1Ps1fkMKfrE="
         }
       },
       "is_incremental": false,
@@ -84,7 +81,18 @@
       "output": {
         ".html": {
           "relative_path": "manual/05-supported-components.html",
-          "hash": "G00AkeghRx21kIgkdpKeZg=="
+          "hash": "pufsbfOPquM4DgDbpk3UeMPBtCOfifFEz8xlrMO2aSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/files/vrlab-ccsdk-template.zip",
+      "output": {
+        "resource": {
+          "relative_path": "manual/files/vrlab-ccsdk-template.zip"
         }
       },
       "is_incremental": false,
@@ -327,7 +335,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "iGxzpbR2Fa3MDnZWzLRxSQ=="
+          "hash": "XfHXsB/07HBGWCJbnYr6O1wmnDyMYmpkVaCSxfGCecI="
         }
       },
       "is_incremental": false,
@@ -339,7 +347,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "6Uq2Y5NXtZh234+wG09E8g=="
+          "hash": "Hin+KfmfkZv03s0QAaIoDFAfH+IJ0l34p/3hPAYiqFc="
         }
       },
       "is_incremental": false,

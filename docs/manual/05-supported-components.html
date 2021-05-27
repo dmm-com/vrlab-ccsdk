@@ -8,7 +8,7 @@
     <title>Supported Components and Shaders | Connect Chat SDK </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Supported Components and Shaders | Connect Chat SDK ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -184,6 +184,18 @@
 <li>Unlit/Transparent Cutout</li>
 </ul>
 <p>⚠️ Using a shader not in the list will result in an error when uploading your world.</p>
+<h2 id="third-party-assets">Third-party Assets</h2>
+<h3 id="bakery">Bakery</h3>
+<p>Lightmaps baked by Bakery can be used in your worlds.
+To do so:</p>
+<ol>
+<li>Copy the <code>BakerySupport.cs</code> file in the <code>Extras~</code> folder into your project's <code>Editor</code> folder.</li>
+<li>Bake your lightmaps and probes with Bakery (we do not support SH and RMP lightmaps).</li>
+<li>Select <code>Connect Chat &gt; Extras &gt; Copy Bakery Lightmaps</code> from the menu. This will create a new object in your scene and
+initialize it using Bakery's lightmaps settings.</li>
+<li>Disable all Bakery related gameobjects.</li>
+<li>Build and upload your world.</li>
+</ol>
 </article>
           </div>
           
