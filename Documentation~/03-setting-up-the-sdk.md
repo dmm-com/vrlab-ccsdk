@@ -4,6 +4,10 @@ The SDK is distributed through GitHub as a Unity Package Manager package.
 
 Git is required and can be download by [clicking  here](http://git-scm.com/).
 
+To install the SDK add the following line to the dependenices in your `manifest.json` file:
+
+    "com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v0.1.6",
+
 ## Template Project
 
 We prepared a template project that can be used as a base for your new worlds.
