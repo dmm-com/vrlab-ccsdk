@@ -1,5 +1,6 @@
 {
     "enableSearch": false,
+    "excludeSource": true,
     "excludes": {
         "apiDocs": true
     }
