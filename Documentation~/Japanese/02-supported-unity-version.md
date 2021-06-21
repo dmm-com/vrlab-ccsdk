@@ -1,6 +1,6 @@
 # 対応Unityバージョン
 
-Connect ChatはUnity version 2019.4.23.を使用しております。
+Connect ChatはUnity 2019.4.23を使用しております。
 
 新しくワールドを作成する場合は、必ず上記のバージョンをご利用ください。
 
