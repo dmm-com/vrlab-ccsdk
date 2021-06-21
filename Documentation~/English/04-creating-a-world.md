@@ -34,20 +34,20 @@ and add them to the _CC World_'s spawn point list.
 
     ![Open the Control Panel](../images/control-panel-open.png)
 
-2. The first time you open the control panel, the terms of services will be shown.
-   Using the control panel requires accepting the terms of service.
+    The first time you open the control panel, the terms of services will be shown.
+    Using the control panel requires accepting the terms of service.
 
     ![ToS](../images/tos.png)
 
-3. Once the control panel window appears, press the _Login_ button to login into your [VR Connect](https://connect.vrlab.dmm.com) account.
+2. Once the control panel window appears, press the _Login_ button to login into your [VR Connect](https://connect.vrlab.dmm.com) account.
 
     ![Login into Connect](../images/control-panel-login.png)
 
-4. Press the _Confirm_ button in the browser window that opened and return to Unity.
+3. Press the _Confirm_ button in the browser window that opened and return to Unity.
 
     ![Device Confirmation](../images/device-confirmation.png)
 
-5. Once logged in the control panel will show the list of world you have uploaded.
+4. Once logged in the control panel will show the list of world you have uploaded.
 
     ![Empty World List](../images/empty-world-list.png)
 
