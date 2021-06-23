@@ -1,4 +1,4 @@
-# Supported Components and Shaders
+# Supported Unity Components and Shaders
 
 ## Allowed Components
 
