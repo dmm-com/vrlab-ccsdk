@@ -1,0 +1,12 @@
+* text eol=lf
+
+*.cs        text eol=crlf diff=csharp
+*.shader    text eol=crlf
+
+*.dll       binary
+*.png       binary
+*.pdb       binary
+*.otf       binary
+*.ttf       binary
+*.zip       binary
+*.pdf       binary
