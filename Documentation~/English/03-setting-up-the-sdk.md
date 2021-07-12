@@ -17,3 +17,9 @@ We prepared a template project that can be used as a base for your new worlds.
 3. Launch Unity Hub and add the folder you created to the list of projects.
 4. Open the new project and Unity will import the SDK into your project.
 5. Start creating!
+
+## Layers Setup
+
+If you do not use the template project, be sure to configure your layers as illustrated below:
+
+![Project Layers](../images/setup-layers.png)
