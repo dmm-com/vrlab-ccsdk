@@ -135,7 +135,7 @@ Unityを起動し、アップロードしたいワールドのProjectを開い�
 **"com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v1.0.1",**
 <br><br>
 **また、上記テキストのうちv1.0.1となっている箇所はバージョン情報であり、Connect Chatのバージョンアップデートによって変更となります。
-最新版の確認は必要に応じて、[ドキュメント](03-setting-up-the-sdk.md#SDKのセットアップ)にて行ってください。**
+最新版の確認は必要に応じて、[ドキュメント](../03-setting-up-the-sdk.md#SDKのセットアップ)にて行ってください。**
 <br><br>
 ![git_05](https://user-images.githubusercontent.com/68273442/125567931-49d607ba-1577-475a-9401-e1c41023de23.png)
 <br><br>
