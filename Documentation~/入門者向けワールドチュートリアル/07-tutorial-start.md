@@ -1,12 +1,12 @@
-## はじめに/フローチャート
+## はじめに/目次
 
 ここでは、チュートリアル形式でConnect Chatにワールドをアップロードする方法を解説します。  
 Connect Chatのワールドアップロードはとてもシンプルで、既存のワールドシーンをアップロードすることもできるためチャレンジをしてみましょう！  
 
-### Connect Chatワールドアップロードフローチャート
+### Connect Chatワールドアップロードの流れ
 <br>
 
-![CC_flowchart01](https://user-images.githubusercontent.com/68273442/125905882-f95cb993-534c-4ac5-9315-f6848ccde0aa.png)
+![CC_flowchart01](../images/CC_flow02.png)
 
 
 ### チュートリアルもくじ
@@ -15,8 +15,8 @@ Connect Chatのワールドアップロードはとてもシンプルで、既�
   - **[CCSDKをダウンロードしてUnityにインポート](07-tutorial-start.md#ccsdkをダウンロードしてunityにインポート)**
 
 - **[CCSDKのダウンロード](08-tutorial-ccsdk-download.md#ccsdkのダウンロード)**
-  - **[ワールドテンプレートを使うCCSDKの設定方法(一般向け)](08-tutorial-ccsdk-download.md#ワールドテンプレートを使うccsdkの設定方法_一般向け)** 
-    - **[環境構築(ワールドテンプレート使用)](08-tutorial-ccsdk-download.md#環境構築_ワールドテンプレート使用)**
+  - **[ワールドテンプレートを使うCCSDKの設定方法（一般向け）](08-tutorial-ccsdk-download.md#ワールドテンプレートを使うccsdkの設定方法_一般向け)** 
+    - **[環境構築（ワールドテンプレート使用）](08-tutorial-ccsdk-download.md#環境構築_ワールドテンプレート使用)**
       - **[テンプレートをもとに新しくワールドを作る方法](08-tutorial-ccsdk-download.md#テンプレートをもとに新しくワールドを作る方法)**
       - **[既にあるワールドをテンプレートにインポートする方法](08-tutorial-ccsdk-download.md#既にあるワールドをテンプレートにインポートする方法)**
   - **[Gitを使うCCSDKの設定方法（上級者向け）](08-tutorial-ccsdk-download.md#gitを使うccsdkの設定方法_上級者向け)**
@@ -48,13 +48,14 @@ Connect ChatではDMM VR Connectのアカウントを使用してワールドを
 
 ### CCSDKをダウンロードしてUnityにインポート
 
-CCSDK(Connect ChatカスタムワールドSDK)の導入方法は一般向けと上級者向けの２つの方法が用意されています。
+CCSDK（Connect ChatカスタムワールドSDK）の導入方法は一般向けと上級者向けの２つの方法が用意されています。
 それぞれ詳しく解説をしますので、選びたい方法をクリックして先へ進んでください。
 
-**また、Connect ChatはUnity 2019.4.23を使用しております。  
+
+**:warning:Connect ChatはUnity 2019.4.23を使用しています。  
 新しくワールドを作成する場合は、必ず上記のバージョンのUnityを用意しましょう。**  
 Unityの対応するバージョンのインストール方法は
-**[こちら](../02-supported-unity-version.md#対応Unityバージョン)**
+**[こちら](../Japanese/02-supported-unity-version.md#対応Unityバージョン)**
 で詳細の解説を行っています。
 <br>
 

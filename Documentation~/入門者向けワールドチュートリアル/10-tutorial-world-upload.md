@@ -30,7 +30,7 @@ CC_Worldの設定は以下のように行います。
 
 **Spawn points**  
 **Size　：　1**　（設定した数だけSpawnPointを設定でき、これらはワールド入室時ランダムで選ばれる）  
-**Element 0　：　GameObject**　(Hierarchyから参照GameObjectをドラッグアンドドロップすると、この位置がSpawn位置になる）  
+**Element 0　：　GameObject**　（Hierarchyから参照GameObjectをドラッグアンドドロップすると、この位置がSpawn位置になる）  
 <br>
 Spawn pointsのElementはSizeの数を2以上にすると複数設定が可能で、空のGameObjectを新しく追加してSpawnPointとして設定することが出来ます。
 また、GameObjectは必要に応じてリネームを行っても構いません。  
