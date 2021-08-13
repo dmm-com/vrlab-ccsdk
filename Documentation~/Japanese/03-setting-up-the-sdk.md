@@ -18,8 +18,10 @@ SDKをインストールするには、`manifest.json`ファイルに次の行�
 4. 新しいプロジェクトを開くと、UnityがSDKをそのプロジェクトにインポートします。
 5. あなただけのワールドを作りましょう！
 
-## プロジェクトのレイヤー
-
 テンプレートプロジェクトを使用しない場合は、必ず以下に示すようにレイヤーを構成してください。
 
 ![Project Layers](../images/setup-layers.png)
+
+さらに、プロジェクトのカラースペースを_Linear_にしてください、
+
+![Project Color Space](../images/project-color-space.png)
