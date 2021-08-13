@@ -1,6 +1,6 @@
 ## CCSDKのダウンロード
 
-CCSDK(Connect ChatカスタムワールドSDK)の導入方法は一般向けと上級者向けの２つの方法が用意されています。
+CCSDK（Connect ChatカスタムワールドSDK）の導入方法は一般向けと上級者向けの２つの方法が用意されています。
 それぞれ詳しく解説をしますので、選びたい方法をクリックして先へ進んでください。
 <br>
 
@@ -15,7 +15,7 @@ CCSDK(Connect ChatカスタムワールドSDK)の導入方法は一般向けと�
 <br><br>
 ### 環境構築_ワールドテンプレート使用
 
-Connect ChatにワールドをアップロードするにはCCSDK(Connect ChatカスタムワールドSDK)をUnityにインポートする必要がありますが、
+Connect ChatにワールドをアップロードするにはCCSDK（Connect ChatカスタムワールドSDK）をUnityにインポートする必要がありますが、
 専門的な作業をあらかじめすべて設定したワールドテンプレートを配布しています。  
 はじめに、**下記URLからワールドテンプレートをダウンロードします。**  
 <br>
@@ -36,8 +36,8 @@ Connect ChatにワールドをアップロードするにはCCSDK(Connect Chat�
 ![template_t01](https://user-images.githubusercontent.com/68273442/124872413-32b0c700-e000-11eb-8114-7bc87183e9ff.png) 
 <br><br>
 普段UnityProjectを保存しているフォルダに、新しいワールドProject用のフォルダを作成します。ここでは01_SampleWorldという名前にしました。
-新しいワールドProject用のフォルダ(01_SampleWorld)の中に先ほどの解凍したワールドテンプレートのAssettsフォルダがある階層の３つのフォルダ(Assets、Packages、ProjectSettings)をコピーします。
-UnityHubを起動し、リストに追加から作成したワールドProject用のフォルダ(01_SampleWorld)を指定します。　
+新しいワールドProject用のフォルダ（01_SampleWorld）の中に先ほどの解凍したワールドテンプレートのAssettsフォルダがある階層の３つのフォルダ（Assets、Packages、ProjectSettings）をコピーします。
+UnityHubを起動し、リストに追加から作成したワールドProject用のフォルダ（01_SampleWorld）を指定します。　
 <br>
 ![template_t02](https://user-images.githubusercontent.com/68273442/124872673-84595180-e000-11eb-8384-61c1ccfaa7c8.png)  
 <br><br>
@@ -101,11 +101,12 @@ Export Packageを選択しUnityPackageとしてエクスポートを行います
 
 ### 環境構築_Git使用
 
-Connect ChatにワールドをアップロードするにはCCSDK(Connect ChatカスタムワールドSDK)をUnityにインポートして、
-ワールドのアップロードや管理を行います。
+Connect ChatにワールドをアップロードするにはCCSDK（Connect ChatカスタムワールドSDK）をUnityにインポートして、ワールドのアップロードや管理を行います。
 
 
-CCSDKをワールドテンプレートを使わずにインポートするにはGitが必要なため、下記のURLからGitをダウンロードしてインストールします。  
+
+CCSDKをワールドテンプレートを使わずにインポートするにはGitが必要なため、下記のURLからGitをダウンロードしてインストールします。
+またGitには複数の種類が存在しますが、ここでは下記のGitを使用した解説を行います。  
 <br>
 **Git : http://git-scm.com/**
 <br><br>
@@ -135,7 +136,7 @@ Unityを起動し、アップロードしたいワールドのProjectを開い�
 **"com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v1.0.1",**
 <br><br>
 **また、上記テキストのうちv1.0.1となっている箇所はバージョン情報であり、Connect Chatのバージョンアップデートによって変更となります。
-最新版の確認は必要に応じて、[ドキュメント](../03-setting-up-the-sdk.md#SDKのセットアップ)にて行ってください。**
+最新版の確認は必要に応じて、[ドキュメント](../Japanese/03-setting-up-the-sdk.md#SDKのセットアップ)にて行ってください。**
 <br><br>
 ![git_05](https://user-images.githubusercontent.com/68273442/125567931-49d607ba-1577-475a-9401-e1c41023de23.png)
 <br><br>

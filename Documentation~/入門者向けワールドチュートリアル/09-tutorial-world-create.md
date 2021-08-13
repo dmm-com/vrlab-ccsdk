@@ -35,7 +35,7 @@
 ![worldcreate_02_03](https://user-images.githubusercontent.com/68273442/125440265-d63eea2b-5c86-4441-8fba-519c472237aa.png)
 <br><br>
 マテリアルが作成できたら、テクスチャを割り当てます。テクスチャ画像をインポートしたらマテリアルのInspectorの該当するMapにテクスチャを割り当てます。
-ここではPBR(物理ベースレンダリング)でテクスチャを作成していましたのでAlbedo/MetallicSmoothness/NormalMapの３枚の画像を割り当てました。
+ここではPBR（物理ベースレンダリング）でテクスチャを作成していましたのでAlbedo/MetallicSmoothness/NormalMapの３枚の画像を割り当てました。
 <br>
 
 ![worldcreate_02_04](https://user-images.githubusercontent.com/68273442/125441498-23e6c386-7722-41a0-a4be-76e99fc265a9.png)
@@ -63,7 +63,7 @@ Generate Lightmap UVsにチェックを入れてApplyをクリックしましょ
 <br>
 ![worldcreate_04_02](https://user-images.githubusercontent.com/68273442/124892467-df953f00-e014-11eb-9a44-525cff8eb982.png)
 <br><br>
-Lithingウインドウ(Window>Rendering>Lighting Settings)のSkybox Materialに先ほど作成したSkyboxのマテリアルを割り当てます。これでSkyboxの設定が完了です。  
+Lithingウインドウ（Window>Rendering>Lighting Settings）のSkybox Materialに先ほど作成したSkyboxのマテリアルを割り当てます。これでSkyboxの設定が完了です。  
 必要に応じてIntensity Multiplierなどの設定で環境光の強さを設定しましょう。
 <br>
 ![worldcreate_04_03](https://user-images.githubusercontent.com/68273442/124896504-731c3f00-e018-11eb-9e70-8a7079c79001.png)
@@ -86,7 +86,7 @@ Lithingウインドウ(Window>Rendering>Lighting Settings)のSkybox Materialに�
 ポストエフェクトの追加はMainCameraのInspectorからAdd Componentをクリック、Post-process LayerとPost-process Volumeを追加します。  
 Post-process Layerの設定はLayerをDefaultに設定しましょう。  
 Post-process VolumeはIs Globalにチェック、Profile>Newと進み、Add effectから追加したいエフェクトを選びます。
-ここでは例としてColor Gradingを追加し、Saturation(彩度)とContrast（コントラスト）を調整してみました。  
+ここでは例としてColor Gradingを追加し、Saturation（彩度）とContrast（コントラスト）を調整してみました。  
 <br>
 ![worldcreate_06](https://user-images.githubusercontent.com/68273442/124905267-d7db9780-e020-11eb-874a-1eb5e9c08ed0.png)
 <br><br>
