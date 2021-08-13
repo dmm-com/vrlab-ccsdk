@@ -18,8 +18,10 @@ We prepared a template project that can be used as a base for your new worlds.
 4. Open the new project and Unity will import the SDK into your project.
 5. Start creating!
 
-## Layers Setup
-
 If you do not use the template project, be sure to configure your layers as illustrated below:
 
 ![Project Layers](../images/setup-layers.png)
+
+and set the project color space to _Linear_.
+
+![Project Color Space](../images/project-color-space.png)
