@@ -5,6 +5,17 @@
 <br>
 ![worldcreate_01](https://user-images.githubusercontent.com/68273442/124876145-a94fc380-e004-11eb-907b-04fb774f6220.png)
 <br><br>
+
+### ConnectChatのための事前準備
+ConnectChat用の設定としてUnityのカラースペースの設定を行っておきましょう。  
+Edit→Project Settingsと進んで、Playerから
+**ColorSpaceをLinearに設定しましょう。**
+事前の設定はこれだけで、テンプレートを使用する場合は設定済なので新しい設定は不要です。  
+<br>
+![worldcreate_00_01](../images/worldcreate_00_01.png)
+<br><br>
+
+
 ### オブジェクトのインポートと配置
 
 3DモデルはFBXなどの形式でエクスポートし、UnityProjectのAssetsフォルダ配下に新しくオブジェクト管理用のフォルダを作成します。ここではMeshフォルダを作成しました。  

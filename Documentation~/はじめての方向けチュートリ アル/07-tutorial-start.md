@@ -23,6 +23,7 @@ Connect Chatのワールドアップロードはとてもシンプルで、既�
     - **[環境構築（Git使用）](08-tutorial-ccsdk-download.md#環境構築_git使用)**  
 
 - **[ワールドの一般的な作り方](09-tutorial-world-create.md#ワールドの一般的な作り方)**
+  - **[ConnectChatのための事前準備](09-tutorial-world-create.md#ConnectChatのための事前準備)**
   - **[オブジェクトのインポートと配置](09-tutorial-world-create.md#オブジェクトのインポートと配置)**
   - **[コライダーの設定](09-tutorial-world-create.md#コライダーの設定)**
   - **[Skybox設定とライティング](09-tutorial-world-create.md#skybox設定とライティング)**
