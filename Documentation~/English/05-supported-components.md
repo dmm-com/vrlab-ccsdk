@@ -116,6 +116,8 @@ The following shaders can be used when creating your world.
 - Unlit/Texture
 - Unlit/Transparent
 - Unlit/Transparent Cutout
+- Particles/Standard Surface
+- Particles/Standard Unlit
 
 :warning: Using a shader not in the list will result in an error when uploading your world.
 

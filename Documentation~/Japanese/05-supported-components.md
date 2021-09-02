@@ -116,6 +116,8 @@
 - Unlit/Texture
 - Unlit/Transparent
 - Unlit/Transparent Cutout
+- Particles/Standard Surface
+- Particles/Standard Unlit
 
 ＊上記のリストにないシェーダーを使用した場合、ワールドのアップロード時にエラーが起きます。
 
