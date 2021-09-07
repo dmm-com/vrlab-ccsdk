@@ -6,7 +6,7 @@ SDKの利用にはGitが必要となるので、 [こちらから](http://git-sc
 
 SDKをインストールするには、`manifest.json`ファイルに次の行を追加します。
 
-    "com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v1.0.1",
+    "com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v1.1.0",
 
 ## プロジェクトテンプレート
 

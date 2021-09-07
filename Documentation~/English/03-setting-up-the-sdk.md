@@ -6,7 +6,7 @@ Git is required and can be download by [clicking here](http://git-scm.com/).
 
 To install the SDK add the following line to the dependencies in your `manifest.json` file:
 
-    "com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v1.0.1"
+    "com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v1.1.0"
 
 ## Template Project
 

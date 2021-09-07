@@ -133,9 +133,9 @@ Unityを起動し、アップロードしたいワールドのProjectを開い�
 ポップアップでエクスプローラーが開くので、Packagesフォルダの中のmanifest.jsonを探してメモ帳アプリケーションなどで開きます。  
 そして２行名から始まる"dependencies"：｛　の次の行に、下記テキストを入力して上書き保存をしましょう。  
 <br>
-**"com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v1.0.1",**
+**"com.dmm.vrlab.ccsdk": "https://github.com/dmm-com/vrlab-ccsdk.git#v1.1.0",**
 <br><br>
-**また、上記テキストのうちv1.0.1となっている箇所はバージョン情報であり、Connect Chatのバージョンアップデートによって変更となります。
+**また、上記テキストのうちv1.1.0となっている箇所はバージョン情報であり、Connect Chatのバージョンアップデートによって変更となります。
 最新版の確認は必要に応じて、[ドキュメント](../Japanese/03-setting-up-the-sdk.md#SDKのセットアップ)にて行ってください。**
 <br><br>
 ![git_05](https://user-images.githubusercontent.com/68273442/125567931-49d607ba-1577-475a-9401-e1c41023de23.png)
