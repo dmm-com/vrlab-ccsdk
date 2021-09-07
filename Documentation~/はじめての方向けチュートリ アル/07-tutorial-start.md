@@ -53,8 +53,7 @@ CCSDK（Connect ChatカスタムワールドSDK）の導入方法は一般向け
 それぞれ詳しく解説をしますので、選びたい方法をクリックして先へ進んでください。
 
 
-**:warning:Connect ChatはUnity 2019.4.29を使用しています。  
-新しくワールドを作成する場合は、必ず上記のバージョンのUnityを用意しましょう。**  
+**:warning: Connect ChatはUnity 2019.4.29を使用しています。 新しくワールドを作成する場合は、必ず上記のバージョンのUnityを用意しましょう。**  
 Unityの対応するバージョンのインストール方法は
 **[こちら](../Japanese/02-supported-unity-version.md#対応Unityバージョン)**
 で詳細の解説を行っています。
