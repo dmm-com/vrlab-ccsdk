@@ -74,15 +74,13 @@ Click the `+` button to create a new world; the world list will update and a new
 
 The image on the right is the world's thumbnail: a 256x256 texture that will be shown together with the world title on the world selection screen.
 
-On the far right there are four icons:
+On the far right there are three icons:
 
-![](../images/world-edit-icon.png) **Edit:** Toggles the edit mode for the world details. 
+![Edit](../images/world-edit-icon.png) **Edit:** Toggles the edit mode for the world details.
 
-![](../images/world-publish-icon.png) **Publish:** Publishes the world and make it available in the World Selection window. 
+![Upload](../images/world-upload-icon.png) **Build & Upload:** Builds the world asset bundle using the current active scene, uploads it, and make it available in Connect Chat.
 
-![](../images/world-upload-icon.png) **Build & Upload:** Builds the world asset bundle using the current active scene and uploads it.
-
-![](../images/world-delete-icon.png) **Delete:** Deletes the world (this operation cannot be undone).
+![Delete](../images/world-delete-icon.png) **Delete:** Deletes the world (this operation cannot be undone).
 
 ### Editing your World Details
 
@@ -96,11 +94,7 @@ Custom thumbnails must be 256 x 256 pixels and be imported with the following se
 
 ![Thumbnail import settings.](../images/world-thumbnail-import-settings.png)
 
-## Step 4 - Uploading
+## Step 4 - Uploading & Publishing
 
-To building and uploading your world just click on the build button: a dialog will appear once the upload is completed.
-If anything wrong happens (for example, the scene contains components that are not allowed), check the console for error messages.
-
-## Step 5 - Publish your World
-
-Once the details of your world are in order and the scene has been uploaded press the publish button to make your world usable in Connect Chat.
+To build, upload, and publish your world just click on the build button: a dialog will appear once the upload is completed and your world published and available in Connect Chat.
+Check the console for possible error messages (for example, if the scene contains components that are not allowed). 
