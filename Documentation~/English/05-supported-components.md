@@ -129,7 +129,7 @@ Lightmaps baked by Bakery can be used in your worlds.
 To do so:
 
 1. Copy the `BakerySupport.cs` file in the `Extras~` folder into your project's `Editor` folder.
-2. Bake your lightmaps and probes with Bakery (we do not support SH and RMP lightmaps).
+2. Bake your lightmaps and probes with Bakery (we do not support SH and RNM lightmaps).
 3. Select `Connect Chat > Extras > Copy Bakery Lightmaps` from the menu. This will create a new object in your scene and
    initialize it using Bakery's lightmaps settings.
 4. Disable all Bakery related gameobjects.
