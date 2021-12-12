@@ -100,10 +100,8 @@ Format : RGB 24 Bit**
 <br>
 ![upload_07](https://user-images.githubusercontent.com/68273442/124922757-ca300d00-e034-11eb-8f70-8555a95b8520.png)
 <br><br>
-アップロードが完了したら、Publishアイコンをクリックしてパブリッシュし、ワールド選択画面から選べるようにします。  
+アップロードが完了したら、ワールド選択画面から選べるようになります。  
 この時はまだあなたのみがこのワールドをConnect Chat上でルームとして設立することが出来る状態です。
-<br><br>
-![upload_08](https://user-images.githubusercontent.com/68273442/124924310-4bd46a80-e036-11eb-8db0-81bf0a2bdff2.png)
 <br><br>
 最後に、任意でワールドをPublicにする事ができます。Publicにすることであなたを含めたConnect Chatユーザー全員があなたのワールドをワールド選択画面で選択し、ルームを設立することができるようになります。  
 Publicは編集モードでチェックを入れるのでEditアイコンをクリックして編集モードに入ったら、
