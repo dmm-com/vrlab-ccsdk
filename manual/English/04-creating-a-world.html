@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Creating Your First World | Connect Chat SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Creating Your First World | Connect Chat SDK ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="creating-your-first-world">Creating Your First World</h1>
+
+<p>Creating a new world is a simple process:</p>
+<ol>
+<li>Create and setup a scene containing your world content.</li>
+<li>Log into your <a href="https://connect.vrlab.dmm.com">VR Connect</a> account.</li>
+<li>Add a new world to your list.</li>
+<li>Upload the scene.</li>
+<li>Publish your world.</li>
+</ol>
+<h2 id="step-1---create-and-setup-the-scene">Step 1 - Create and Setup the Scene</h2>
+<p>Create a new scene and populate it with the content of your world.</p>
+<p><img src="../images/scene-create.png" alt="Create and populate your scene."></p>
+<p>When you are done, add an empty <em>GameObject</em> and attach the <em>CC World</em> component to it.</p>
+<p><img src="../images/scene-add-cc-world.png" alt="Add the CC World component."></p>
+<p>Add spawn points to the scene by creating empty <em>GameObjects</em>:</p>
+<p><img src="../images/scene-create-spawn-point.png" alt="Create a spawn point."></p>
+<p>and add them to the <em>CC World</em>'s spawn point list.</p>
+<p><img src="../images/scene-add-spawn-point.png" alt="Add the spawn point to CC World."></p>
+<p>⚠️  Not all Unity components or shaders are usable in the scene: see <a href="05-supported-components.html#allowed-components">here</a> for the list of allowed components, and <a href="05-supported-components.html#allowed-shaders">here</a> for the list of allowed shaders.</p>
+<h2 id="step-2---log-into-vr-connect">Step 2 - Log into VR Connect</h2>
+<ol>
+<li><p>Open the control panel using the <em>Connect Chat</em> menu.</p>
+<p><img src="../images/control-panel-open.png" alt="Open the Control Panel"></p>
+<p>The first time you open the control panel, the terms of services will be shown.
+Using the control panel requires accepting the terms of service.</p>
+<p><img src="../images/tos.png" alt="ToS"></p>
+</li>
+<li><p>Once the control panel window appears, press the <em>Login</em> button to login into your <a href="https://connect.vrlab.dmm.com">VR Connect</a> account.</p>
+<p><img src="../images/control-panel-login.png" alt="Login into Connect"></p>
+</li>
+<li><p>Press the <em>Confirm</em> button in the browser window that opened and return to Unity.</p>
+<p><img src="../images/device-confirmation.png" alt="Device Confirmation"></p>
+</li>
+<li><p>Once logged in the control panel will show the list of world you have uploaded.</p>
+<p><img src="../images/empty-world-list.png" alt="Empty World List"></p>
+</li>
+</ol>
+<p>In addition to the world list, the control panel windows show the user information and
+has a few useful controls:</p>
+<p><img src="../images/control-panel-anatomy.png" alt="Control Panel Anatomy"></p>
+<h2 id="step-3---adding-a-new-world">Step 3 - Adding a New World</h2>
+<p>Click the <code>+</code> button to create a new world; the world list will update and a new world should be added to your list:</p>
+<p><img src="../images/world-entry.png" alt="World Entry"></p>
+<p><strong>ID:</strong> The internal id of the world.</p>
+<p><strong>Title:</strong> The name of the world and what is shown in the world selections screen. Titles must be composed of a maximum of 16 letters or digits.</p>
+<p><strong>Description:</strong> One or two short sentences describing your world.</p>
+<p><strong>Tags:</strong> A list of tags describing your world. A maximum of 8 tags are allowed, each tag composed of a maximum of 16 letters or digits.</p>
+<p><strong>Public:</strong> Shows if the world is usable by everyone or only by you (you will still be able to invite people into one instance).</p>
+<p>The image on the right is the world's thumbnail: a 256x256 texture that will be shown together with the world title on the world selection screen.</p>
+<p>On the far right there are three icons:</p>
+<p><img src="../images/world-edit-icon.png" alt="Edit"> <strong>Edit:</strong> Toggles the edit mode for the world details.</p>
+<p><img src="../images/world-upload-icon.png" alt="Upload"> <strong>Build &amp; Upload:</strong> Builds the world asset bundle using the current active scene, uploads it, and make it available in Connect Chat.</p>
+<p><img src="../images/world-delete-icon.png" alt="Delete"> <strong>Delete:</strong> Deletes the world (this operation cannot be undone).</p>
+<h3 id="editing-your-world-details">Editing your World Details</h3>
+<p>Click the <em>Edit</em> button and toggle the <em>edit mode</em> for your world.</p>
+<p>You can now edit the title and description of your world, change its thumbnail, and toggle it's visibility flag.</p>
+<p><img src="../images/world-edit.png" alt="Editing the world details."></p>
+<p>Custom thumbnails must be 256 x 256 pixels and be imported with the following settings:</p>
+<p><img src="../images/world-thumbnail-import-settings.png" alt="Thumbnail import settings."></p>
+<h2 id="step-4---uploading--publishing">Step 4 - Uploading &amp; Publishing</h2>
+<p>To build, upload, and publish your world just click on the build button: a dialog will appear once the upload is completed and your world published and available in Connect Chat.
+Check the console for possible error messages (for example, if the scene contains components that are not allowed).</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#12399;&#12376;&#12417;&#12395;/&#30446;&#27425; | Connect Chat SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#12399;&#12376;&#12417;&#12395;/&#30446;&#27425; | Connect Chat SDK ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="はじめに目次">はじめに/目次</h2>
+
+<p>ここでは、チュートリアル形式でConnect Chatにワールドをアップロードする方法を解説します。<br>
+Connect Chatのワールドアップロードはとてもシンプルで、既存のワールドシーンをアップロードすることもできるためチャレンジをしてみましょう！</p>
+<h3 id="connect-chatワールドアップロードの流れ">Connect Chatワールドアップロードの流れ</h3>
+<br>
+<p><img src="../images/CC_flow02.png" alt="CC_flowchart01"></p>
+<h3 id="チュートリアルもくじ">チュートリアルもくじ</h3>
+<ul>
+<li><p><strong><a href="07-tutorial-start.html#%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90">アカウントの作成</a></strong></p>
+<ul>
+<li><strong><a href="07-tutorial-start.html#ccsdk%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%97%E3%81%A6unity%E3%81%AB%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88">CCSDKをダウンロードしてUnityにインポート</a></strong></li>
+</ul>
+</li>
+<li><p><strong><a href="08-tutorial-ccsdk-download.html#ccsdk%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89">CCSDKのダウンロード</a></strong></p>
+<ul>
+<li><strong><a href="08-tutorial-ccsdk-download.html#%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%92%E4%BD%BF%E3%81%86ccsdk%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95_%E4%B8%80%E8%88%AC%E5%90%91%E3%81%91">ワールドテンプレートを使うCCSDKの設定方法（一般向け）</a></strong>
+<ul>
+<li><strong><a href="08-tutorial-ccsdk-download.html#%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89_%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E4%BD%BF%E7%94%A8">環境構築（ワールドテンプレート使用）</a></strong>
+<ul>
+<li><strong><a href="08-tutorial-ccsdk-download.html#%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%92%E3%82%82%E3%81%A8%E3%81%AB%E6%96%B0%E3%81%97%E3%81%8F%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%92%E4%BD%9C%E3%82%8B%E6%96%B9%E6%B3%95">テンプレートをもとに新しくワールドを作る方法</a></strong></li>
+<li><strong><a href="08-tutorial-ccsdk-download.html#%E6%97%A2%E3%81%AB%E3%81%82%E3%82%8B%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%92%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AB%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95">既にあるワールドをテンプレートにインポートする方法</a></strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><a href="08-tutorial-ccsdk-download.html#git%E3%82%92%E4%BD%BF%E3%81%86ccsdk%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95_%E4%B8%8A%E7%B4%9A%E8%80%85%E5%90%91%E3%81%91">Gitを使うCCSDKの設定方法（上級者向け）</a></strong>
+<ul>
+<li><strong><a href="08-tutorial-ccsdk-download.html#%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89_git%E4%BD%BF%E7%94%A8">環境構築（Git使用）</a></strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong><a href="09-tutorial-world-create.html#%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%81%AE%E4%B8%80%E8%88%AC%E7%9A%84%E3%81%AA%E4%BD%9C%E3%82%8A%E6%96%B9">ワールドの一般的な作り方</a></strong></p>
+<ul>
+<li><strong><a href="09-tutorial-world-create.html#ConnectChat%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99">ConnectChatのための事前準備</a></strong></li>
+<li><strong><a href="09-tutorial-world-create.html#%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88%E3%81%A8%E9%85%8D%E7%BD%AE">オブジェクトのインポートと配置</a></strong></li>
+<li><strong><a href="09-tutorial-world-create.html#%E3%82%B3%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%81%AE%E8%A8%AD%E5%AE%9A">コライダーの設定</a></strong></li>
+<li><strong><a href="09-tutorial-world-create.html#skybox%E8%A8%AD%E5%AE%9A%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0">Skybox設定とライティング</a></strong></li>
+<li><strong><a href="09-tutorial-world-create.html#%E3%83%9D%E3%82%B9%E3%83%88%E3%82%A8%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88">ポストエフェクト</a></strong></li>
+</ul>
+</li>
+<li><p><strong><a href="10-tutorial-world-upload.html#%E5%85%B1%E9%80%9A%E8%A8%AD%E5%AE%9A%E3%81%A8%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89">共通設定とアップロード</a></strong></p>
+<ul>
+<li><strong><a href="10-tutorial-world-upload.html#%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89%E5%89%8D%E3%81%AE%E5%85%B1%E9%80%9A%E8%A8%AD%E5%AE%9A">ワールドアップロード前の共通設定</a></strong>
+<ul>
+<li><strong><a href="10-tutorial-world-upload.html#spawnpoint%E3%81%AE%E8%A8%AD%E5%AE%9A">SpawnPoint（スタート地点）の設定</a></strong></li>
+<li><strong><a href="10-tutorial-world-upload.html#%E9%9D%9E%E5%AF%BE%E5%BF%9C%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%81%AE%E5%89%8A%E9%99%A4">非対応のコンポーネントの削除</a></strong></li>
+</ul>
+</li>
+<li><strong><a href="10-tutorial-world-upload.html#%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89%E3%81%A8%E5%85%AC%E9%96%8B_%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5">ワールドアップロードと公開_パブリッシュ</a></strong></li>
+</ul>
+</li>
+<li><p><strong><a href="11-tutorial-additional-features.html#%E8%BF%BD%E5%8A%A0%E6%A9%9F%E8%83%BD">追加機能</a></strong></p>
+<ul>
+<li><strong><a href="11-tutorial-additional-features.html#%E3%82%B0%E3%83%A9%E3%83%90%E3%83%96%E3%83%AB%E6%A9%9F%E8%83%BD">グラバブル機能</a></strong></li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="アカウントの作成">アカウントの作成</h3>
+<p>Connect ChatではDMM VR Connectのアカウントを使用してワールドを管理するため、アカウント作成がまだの方は下記URLよりアカウント作成を行いましょう。
+また、DMM VR Connectに登録した好きなVRMアバターの姿でConnect Chatを遊ぶことができます。<br>
+<br>
+<strong>DMM VR Connect : <a href="https://connect.vrlab.dmm.com/">https://connect.vrlab.dmm.com/</a></strong>
+<br><br></p>
+<h3 id="ccsdkをダウンロードしてunityにインポート">CCSDKをダウンロードしてUnityにインポート</h3>
+<p>CCSDK（Connect ChatカスタムワールドSDK）の導入方法は一般向けと上級者向けの２つの方法が用意されています。
+それぞれ詳しく解説をしますので、選びたい方法をクリックして先へ進んでください。</p>
+<p><strong>:warning: Connect ChatはUnity 2019.4.29を使用しています。 新しくワールドを作成する場合は、必ず上記のバージョンのUnityを用意しましょう。</strong><br>
+Unityの対応するバージョンのインストール方法は
+<strong><a href="../Japanese/02-supported-unity-version.html#%E5%AF%BE%E5%BF%9CUnity%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3">こちら</a></strong>
+で詳細の解説を行っています。
+<br></p>
+<ul>
+<li><strong><a href="08-tutorial-ccsdk-download.html#%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%92%E4%BD%BF%E3%81%86ccsdk%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95_%E4%B8%80%E8%88%AC%E5%90%91%E3%81%91">ワールドテンプレートを使うCCSDKの設定方法（一般向け）</a></strong></li>
+<li><strong><a href="08-tutorial-ccsdk-download.html#git%E3%82%92%E4%BD%BF%E3%81%86ccsdk%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95_%E4%B8%8A%E7%B4%9A%E8%80%85%E5%90%91%E3%81%91">Gitを使うCCSDKの設定方法（上級者向け）</a></strong></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

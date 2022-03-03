@@ -1,0 +1,584 @@
+{
+  "homepages": [],
+  "source_base_path": "/tmp/dg-1ue0o0vu.nhs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "3hN2cn59mjOhcOHCKq3927wXIWjoyCSm+n7CSWbTWq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "scbnoy9+dpOf0pDucdNBIaOCjMYizVFKX0+0e0OdjV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/English/01-overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/English/01-overview.html",
+          "hash": "ofZ3eS5GPR2/zebweA1ojCyEwPnYNKq0i4q2sjyjBpE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/English/02-supported-unity-version.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/English/02-supported-unity-version.html",
+          "hash": "gwzdW1LKsINS69T60fFB4TA0UZ/5RhTuom/s/lANS7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/English/03-setting-up-the-sdk.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/English/03-setting-up-the-sdk.html",
+          "hash": "tvI1NqKsaNcHl9yMox9ktXMFrzJQfXE58LRUp8595RU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/English/04-creating-a-world.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/English/04-creating-a-world.html",
+          "hash": "Iu1sA6bKe6H0isb4ocbWglvUW4DiMt6aJRn0+q6AMDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/English/05-supported-components.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/English/05-supported-components.html",
+          "hash": "3QQYhrThEO4ZUvoSqeSXVjfp81yDhjc7R8LGIMFhvho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/English/06-components.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/English/06-components.html",
+          "hash": "vfTmNeuIpBcbj5+IBowy35+uOjY6lzAoaZpiv7akNms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Japanese/01-overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Japanese/01-overview.html",
+          "hash": "HYhkskQ3/bNUnhP8L2xbPoFB74NARv/6zfr9yXUqN54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Japanese/02-supported-unity-version.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Japanese/02-supported-unity-version.html",
+          "hash": "aFkvVODkCbdRvEhWfqgSEzyO2ueSF9Jh7PZ8WSCjDhQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Japanese/03-setting-up-the-sdk.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Japanese/03-setting-up-the-sdk.html",
+          "hash": "EtcOTolK7KjDdFSLjkPkCbzn51+0Q4dDhpk+xVx216o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Japanese/04-creating-a-world.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Japanese/04-creating-a-world.html",
+          "hash": "kg9QHPjTEVUSdIPC0DMSCgAMkKq3NIq3ZPdnmkGb9iE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Japanese/05-supported-components.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Japanese/05-supported-components.html",
+          "hash": "c1lriV1Hf4imJ3T4RXgSHaLVLDe2at1feicK/UR9Gk8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Japanese/06-components.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Japanese/06-components.html",
+          "hash": "COqwVmJOjcKRCYlaLJPbOQT10tkhlgpnsgivZHLPCQA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/files/vrlab-ccsdk-template.zip",
+      "output": {
+        "resource": {
+          "relative_path": "manual/files/vrlab-ccsdk-template.zip"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/CC_flow02.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/CC_flow02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/cc-world.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/cc-world.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/control-panel-anatomy.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/control-panel-anatomy.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/control-panel-login.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/control-panel-login.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/control-panel-open.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/control-panel-open.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/device-confirmation.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/device-confirmation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/empty-world-list.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/empty-world-list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/project-color-space.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/project-color-space.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/scene-add-cc-world.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/scene-add-cc-world.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/scene-add-spawn-point.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/scene-add-spawn-point.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/scene-create-spawn-point.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/scene-create-spawn-point.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/scene-create.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/scene-create.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/setup-layers.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/setup-layers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/template_t01.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/template_t01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/template_t02.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/template_t02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/tos.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/tos.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-delete-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-delete-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-edit-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-edit-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-edit.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-entry.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-entry.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-publish-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-publish-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-thumbnail-import-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-thumbnail-import-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/world-upload-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/world-upload-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/worldcreate_00_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/worldcreate_00_01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "P8ZtBs4VAcRGri+9LFOLDIVnpYfMrbpsYommptckmFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/はじめての方向けチュートリアル/07-tutorial-start.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/はじめての方向けチュートリアル/07-tutorial-start.html",
+          "hash": "KKkVwdyXPpdrx1iyC9CxM7Y8pOj+ufg2GIBfn4Xr0gE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/はじめての方向けチュートリアル/08-tutorial-ccsdk-download.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/はじめての方向けチュートリアル/08-tutorial-ccsdk-download.html",
+          "hash": "vf/2S5TjKESEXBaFJY79QipM+AofdI0WvnOIYH9n4Nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/はじめての方向けチュートリアル/09-tutorial-world-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/はじめての方向けチュートリアル/09-tutorial-world-create.html",
+          "hash": "DTBnSGEW+XP6D7FKje5k06wbEdIEtKFy9eUsKYdnbCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/はじめての方向けチュートリアル/10-tutorial-world-upload.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/はじめての方向けチュートリアル/10-tutorial-world-upload.html",
+          "hash": "77dsgIMzgd+EOXjs1Fc/TduNxxDcm/ju1jryT16yXNM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/はじめての方向けチュートリアル/11-tutorial-additional-features.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/はじめての方向けチュートリアル/11-tutorial-additional-features.html",
+          "hash": "G43Kat1gwde1xZWuMQ8ExjDIp0UuhtDo6mH5PgXiV5c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "mbqsDMtcxAx6bNnk9PGlIgjSxOsCtfm9061j0llBBCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 19,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

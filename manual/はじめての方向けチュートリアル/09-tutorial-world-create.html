@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#12527;&#12540;&#12523;&#12489;&#12398;&#19968;&#33324;&#30340;&#12394;&#20316;&#12426;&#26041; | Connect Chat SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#12527;&#12540;&#12523;&#12489;&#12398;&#19968;&#33324;&#30340;&#12394;&#20316;&#12426;&#26041; | Connect Chat SDK ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="ワールドの一般的な作り方">ワールドの一般的な作り方</h2>
+
+<p>ここではワールドの一般的な作り方を解説します。まず、BlenderやMayaといった3DCGソフトで3Dモデルをモデリングをするか、
+アセット販売サイトなどで3Dモデルを購入するなどして、ワールドを作るための3Dモデルを用意します。<br>
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/124876145-a94fc380-e004-11eb-907b-04fb774f6220.png" alt="worldcreate_01">
+<br><br></p>
+<h3 id="connectchatのための事前準備">ConnectChatのための事前準備</h3>
+<p>ConnectChat用の設定としてUnityのカラースペースの設定を行っておきましょう。<br>
+Edit→Project Settingsと進んで、Playerから
+<strong>ColorSpaceをLinearに設定しましょう。</strong>
+事前の設定はこれだけで、テンプレートを使用する場合は設定済なので新しい設定は不要です。<br>
+<br>
+<img src="../images/worldcreate_00_01.png" alt="worldcreate_00_01">
+<br><br></p>
+<h3 id="オブジェクトのインポートと配置">オブジェクトのインポートと配置</h3>
+<p>3DモデルはFBXなどの形式でエクスポートし、UnityProjectのAssetsフォルダ配下に新しくオブジェクト管理用のフォルダを作成します。ここではMeshフォルダを作成しました。<br>
+そしてエクスポートした3Dモデルをドラッグアンドドロップするなどの方法でUnity内にインポートをします。インポートができたら必要なオブジェクトをHierarchyに
+ドラッグアンドドロップして、シーンに配置し、位置の調整などを行います。
+マテリアルやテクスチャの設定、ライトマップ用UVの生成などが必要な場合は同様に設定を行いましょう。<br>
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/124876215-b967a300-e004-11eb-872b-3bd03f62e7fb.png" alt="worldcreate_02">
+<br><br>
+マテリアルの生成方法はいくつか方法がありますが、ここでは3DCGソフトであらかじめ設定したマテリアルを取り出す方法を解説します。
+インポートしたオブジェクトを１つ選択してInspectorのMaterialsタブを開き、下記のように設定してApplyをクリックしましょう。<br>
+<br>
+<strong>Location : Use External Materials(Legacy)</strong><br>
+<strong>Naming : From Model's Material</strong><br>
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/125438527-3eec7302-8743-41c2-a85d-f986312cebf1.png" alt="worldcreate_02_02">
+<br><br>
+自動で同階層にMaterialsフォルダが生成され、このフォルダの中にマテリアルが作成されました。この方法でマテリアルを作成する事でマテリアル名などの再設定が不要となります。<br>
+また、複数のオブジェクトからマテリアルを取り出す場合は続いて、下記のような手順で操作をします。<br>
+<br>
+<strong>①右上のSelect Presetアイコンをクリックします。<br>
+②ポップアップするSelect PresetウインドウからSave current to…をクリックし、プリセットを保存します。<br>
+③マテリアルを取り出したいオブジェクトをすべて選択します。<br>
+④Select Presetウインドウから先ほど保存したプリセット「FBXImporter.preset」を選択します。<br>
+⑤Applyをクリックします。これで複数オブジェクトからマテリアルが作成できました。</strong>
+<br></p>
+<p><img src="https://user-images.githubusercontent.com/68273442/125440265-d63eea2b-5c86-4441-8fba-519c472237aa.png" alt="worldcreate_02_03">
+<br><br>
+マテリアルが作成できたら、テクスチャを割り当てます。テクスチャ画像をインポートしたらマテリアルのInspectorの該当するMapにテクスチャを割り当てます。
+ここではPBR（物理ベースレンダリング）でテクスチャを作成していましたのでAlbedo/MetallicSmoothness/NormalMapの３枚の画像を割り当てました。
+<br></p>
+<p><img src="https://user-images.githubusercontent.com/68273442/125441498-23e6c386-7722-41a0-a4be-76e99fc265a9.png" alt="worldcreate_02_04">
+<br><br>
+最後に、後にライティングをした際にライトベイクを行うオブジェクトにはLightmapUVを作成しておきましょう。必要なオブジェクトを選択してInspectorのModelタブから
+Generate Lightmap UVsにチェックを入れてApplyをクリックしましょう。これで自動でLightmapUVが生成されます。
+<br></p>
+<p><img src="https://user-images.githubusercontent.com/68273442/125442203-1071380a-4373-4bbe-b53e-34b56dda0b3b.png" alt="worldcreate_02_05">
+<br><br></p>
+<h3 id="コライダーの設定">コライダーの設定</h3>
+<p>次に床や壁、障害物などにコライダーの設定を行います。コライダーの設定はオブジェクトのInspectorからAdd Componentをクリック、Box ColliderやMesh Colliderを選択して追加します。<br>
+これによってキャラクターがオブジェクトの上を移動したり、移動範囲を制限する壁を作ったりできます。<br>
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/124889868-757b9a80-e012-11eb-9daf-7df605aaf5a5.png" alt="worldcreate_03">
+<br><br></p>
+<h3 id="skybox設定とライティング">Skybox設定とライティング</h3>
+<p>次はSkyboxの設定をしましょう。Skyboxはワールドの環境光や背景を扱うことが出来ます。HDRIの画像を用意してインポートし、HDRI画像のInspectorからTexture ShapeをCubeとします。<br>
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/124891422-eff8ea00-e013-11eb-85b4-52ef17e61417.png" alt="worldcreate_04_01">
+<br><br>
+右クリックで新しくマテリアルを作成し、マテリアルのInspectorのShaderをSkybox&gt;Cubemapに変更し、Cubemap(HDR)の項目に、先ほど用意したHDRI画像を割り当ててみましょう。
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/124892467-df953f00-e014-11eb-9a44-525cff8eb982.png" alt="worldcreate_04_02">
+<br><br>
+Lithingウインドウ（Window&gt;Rendering&gt;Lighting Settings）のSkybox Materialに先ほど作成したSkyboxのマテリアルを割り当てます。これでSkyboxの設定が完了です。<br>
+必要に応じてIntensity Multiplierなどの設定で環境光の強さを設定しましょう。
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/124896504-731c3f00-e018-11eb-9e70-8a7079c79001.png" alt="worldcreate_04_03">
+<br><br>
+次にライトの設定をしましょう。今回は既にあるDirectionalLightを使用しますが、PointLightなど他のライトを自由に配置して世界観を作る事が可能です。<br>
+ここではColorを青味のある色に、Intensityを少し下げ、ShadowのStrengthを半分にしました。
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/124898453-2c2f4900-e01a-11eb-8014-47bd5ce64cac.png" alt="worldcreate_05_01">
+<br><br>
+ライトの設定が終わったら必要に応じてライトベイクを行う事によって、計算負荷を減らしワールドでより快適に遊ぶことができるようになります。<br>
+<strong>Bakeを行う場合は配置したライトのModeをBakedに設定し、また、Hierarchyからワールド内で動かないオブジェクトをすべて選択し、InspactorのStaticにチェックを入れます。</strong><br>
+そしてLightingウインドウのLightmapping Settingsの設定を行い、Generate Lightingをクリックする
+ことでライトベイクを行う事ができます。
+<br><br>
+<img src="https://user-images.githubusercontent.com/68273442/124899191-d7400280-e01a-11eb-8527-c8731d115ae2.png" alt="worldcreate_05_02">
+<br><br></p>
+<h3 id="ポストエフェクト">ポストエフェクト</h3>
+<p>必要に応じてポストエフェクトを追加してみましょう。ポストエフェクトを追加することでワールドに様々な効果を与える事ができます。ただし、計算負荷も増えてしまうため計画的に使用するようにしましょう。<br>
+ポストエフェクトの追加はMainCameraのInspectorからAdd Componentをクリック、Post-process LayerとPost-process Volumeを追加します。<br>
+Post-process Layerの設定はLayerをDefaultに設定しましょう。<br>
+Post-process VolumeはIs Globalにチェック、Profile&gt;Newと進み、Add effectから追加したいエフェクトを選びます。
+ここでは例としてColor Gradingを追加し、Saturation（彩度）とContrast（コントラスト）を調整してみました。<br>
+<br>
+<img src="https://user-images.githubusercontent.com/68273442/124905267-d7db9780-e020-11eb-874a-1eb5e9c08ed0.png" alt="worldcreate_06">
+<br><br>
+以上で一般的なワールド制作の手順となります。<br>
+あなただけの素敵なワールド制作にチャレンジできましたか？<br>
+<br>
+次はConnectChatでの<strong>共通設定とアップロード</strong>を解説しますので先へ進んでみましょう。<br>
+<br></p>
+<ul>
+<li><strong><a href="10-tutorial-world-upload.html#%E5%85%B1%E9%80%9A%E8%A8%AD%E5%AE%9A%E3%81%A8%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89">共通設定とアップロード</a></strong></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#12527;&#12540;&#12523;&#12489;&#20316;&#25104; | Connect Chat SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#12527;&#12540;&#12523;&#12489;&#20316;&#25104; | Connect Chat SDK ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="ワールド作成">ワールド作成</h1>
+
+<p>新しいワールドの作成は非常に簡単です：</p>
+<ol>
+<li>ワールドに使用したいコンテンツが入ったシーンを作成し、セットアップします。</li>
+<li><a href="https://connect.vrlab.dmm.com">DMM VR Connect</a> アカウントにログインします。</li>
+<li>ワールド一覧に新しいワールドを追加してください。</li>
+<li>シーンをアップロードします。</li>
+<li>ワールドをパブリッシュします。</li>
+</ol>
+<h2 id="ステップ1シーンの作成とセットアップ">ステップ1：シーンの作成とセットアップ</h2>
+<p>新しいシーンを作成し、ワールドに使いたいコンテンツを配置してください。</p>
+<p><img src="../images/scene-create.png" alt="シーンを作成とコンテンツの配置"></p>
+<p>次に、空の_GameObject_を置き、 _CC World_コンポーネントを追加します。</p>
+<p><img src="../images/scene-add-cc-world.png" alt="CCワールドコンポーネントの追加"></p>
+<p>空の_GameObject_を置き、シーンにスポーンポイントを追加します。</p>
+<p><img src="../images/scene-create-spawn-point.png" alt="スポーンポイントの追加"></p>
+<p>そして「<em>CC World</em>」のスポーンポイント一覧に追加してください。</p>
+<p><img src="../images/scene-add-spawn-point.png" alt="CCワールドのスポーンポイント一覧への追加"></p>
+<p>⚠️ シーンに対応していないUnityのコンポーネント・シェーダーがあるのでご注意ください。
+対応コンポーネント一覧は <a href="05-supported-components.html#%E5%AF%BE%E5%BF%9C%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88">こちら</a> 、対応シェーダー一覧は <a href="05-supported-components.html#%E5%AF%BE%E5%BF%9C%E3%82%B7%E3%82%A7%E3%83%BC%E3%83%80%E3%83%BC">こちら</a> からご確認いただけます。</p>
+<h2 id="ステップ2dmm-vr-connectへのログイン">ステップ2：DMM VR Connectへのログイン</h2>
+<ol>
+<li><p>「<em>Connect Chat</em>」メニューよりコントロールパネルを開きます。</p>
+<p><img src="../images/control-panel-open.png" alt="コントロールパネル"></p>
+<p>初めてコントロールパネルを開くと、利用規約が表示されます。
+コントロールパネルを使用するには、利用規約に同意する必要があります。</p>
+<p><img src="../images/tos.png" alt="ToS"></p>
+</li>
+<li><p>コントロールパネルのウィンドウが開いたら、「<em>Login</em>」ボタンを押してご利用の <a href="https://connect.vrlab.dmm.com">DMM VR Connect</a> アカウントにログインしてください。</p>
+<p><img src="../images/control-panel-login.png" alt="DMM VR Connectへのログイン"></p>
+</li>
+<li><p>ログイン後、開いたブラウザウィンドウの「<em>Confirm</em>」ボタンを押してUnityに戻ってください。</p>
+<p><img src="../images/device-confirmation.png" alt="デバイス承認"></p>
+</li>
+<li><p>ログイン完了後、コントロールパネルにアップロードしたワールドの一覧が現れます。</p>
+<p><img src="../images/empty-world-list.png" alt="空白のワールド一覧"></p>
+</li>
+</ol>
+<p>コントロールパネルはワールド一覧に加え、ユーザーにとって有益な情報や操作がいくつかあります。</p>
+<p><img src="../images/control-panel-anatomy.png" alt="コントロールパネルの見方"></p>
+<h2 id="ステップ3新規ワールドの追加">ステップ3：新規ワールドの追加</h2>
+<p>「+」ボタンを押す事によって新しいワールドを追加してください。するとワールド一覧が更新され、新規ワールドが一覧から見れるようになります。</p>
+<p><img src="../images/world-entry.png" alt="ワールド追加"></p>
+<p><strong>ID:</strong> ワールドの内部ID</p>
+<p><strong>Title:</strong> ワールド選択画面に現れるワールドの名称です。最大16文字です。</p>
+<p><strong>Description:</strong> ワールドの説明文</p>
+<p><strong>Tags:</strong> あなたのワールドを説明するタグを8つまでつけることができます。各タグは最大16文字です。</p>
+<p><strong>Public:</strong> ワールドが誰にでも利用できるか、あなた自身にしか使えないかの表記（プライベートに設定していても同じインスタンスに他のユーザーを招待することは可能です）</p>
+<p>右記の画像はワールドのサムネイルです。サムネイルは256 x 256のテクスチャで、ワールド選択画面にてワールドの名称と一緒に表示されます。</p>
+<p>画面の右端には三つのアイコンがあります:</p>
+<p><img src="../images/world-edit-icon.png" alt="編集"> <strong>Edit:</strong> ワールドの詳細を修正できるモードをオン・オフできます。</p>
+<p><img src="../images/world-upload-icon.png" alt="Build"> <strong>Build &amp; Upload:</strong> 現在選択されているシーンでワールドのアセットバンドルをビルドし、アップロードします。アップロードに成功したらワールドがConnectChatで利用できます。</p>
+<p><img src="../images/world-delete-icon.png" alt="Delete"> <strong>Delete:</strong> ワールドを削除します (一度削除したワールドは復元できません)。</p>
+<h3 id="ワールド詳細の修正">ワールド詳細の修正</h3>
+<p>「<em>Edit</em>」をクリックして詳細を修正したいワールドの「<em>edit mode</em>」をオンにしてください。</p>
+<p>このモードからワールドの名称と説明文の修正、サムネイルの変更、ビジビリティのオン・オフが行えます。</p>
+<p><img src="../images/world-edit.png" alt="ワールド詳細の修正"></p>
+<p>カスタムサムネイルは256 x 256ピクセルで下記の設定でインポートしてください。</p>
+<p><img src="../images/world-thumbnail-import-settings.png" alt="サムネイルのインポート設定"></p>
+<h2 id="ステップ4アップロード">ステップ4：アップロード</h2>
+<p>ワールドのビルドとアップロードを行うには、ビルドボタンをクリックしてください。アップロードが完了次第、ダイアログが出現します。
+アップロードに成功したらワールドがConnectChatで利用できます。
+アップロードがうまくいかない場合（シーンに非対応コンポーネントを利用していた、等）は、コンソールのエラーメッセージを確認してください。</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
