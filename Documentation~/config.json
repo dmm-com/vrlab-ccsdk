@@ -1,8 +1,0 @@
-{
-    "enableSearch": false,
-    "excludes": {
-        "apiDocs": true,
-        "changelog": true,
-        "license": true
-    }
-}
